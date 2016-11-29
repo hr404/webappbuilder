@@ -1,0 +1,711 @@
+{
+  "theme": {
+    "name": "FoldableTheme",
+    "styles": [
+      "green",
+      "default",
+      "black",
+      "blue",
+      "cyan",
+      "purple",
+      "red",
+      "yellow"
+    ],
+    "version": "2.2"
+  },
+  "portalUrl": "http://hrsd.maps.arcgis.com",
+  "appId": "",
+  "authorizedCrossOriginDomains": [],
+  "title": "MWF Service / Travel Time",
+  "subtitle": "",
+  "keepAppState": true,
+  "logo": "data:image/jpeg;base64,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",
+  "geometryService": "http://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer",
+  "links": [],
+  "widgetOnScreen": {
+    "widgets": [
+      {
+        "uri": "themes/FoldableTheme/widgets/HeaderController/Widget",
+        "position": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "height": 40,
+          "relativeTo": "browser"
+        },
+        "version": "2.2",
+        "id": "themes_FoldableTheme_widgets_HeaderController_Widget_1",
+        "name": "HeaderController"
+      },
+      {
+        "uri": "widgets/Scalebar/Widget",
+        "position": {
+          "left": 7,
+          "bottom": 25,
+          "relativeTo": "map"
+        },
+        "version": "2.2",
+        "id": "widgets_Scalebar_Widget_2",
+        "name": "Scalebar"
+      },
+      {
+        "uri": "widgets/Search/Widget",
+        "position": {
+          "left": 55,
+          "top": 5,
+          "relativeTo": "map"
+        },
+        "version": "2.2",
+        "id": "widgets_Search_Widget_3",
+        "name": "Search"
+      },
+      {
+        "uri": "widgets/Coordinate/Widget",
+        "position": {
+          "left": 7,
+          "bottom": 5,
+          "relativeTo": "map"
+        },
+        "version": "2.2",
+        "id": "widgets_Coordinate_Widget_4",
+        "name": "Coordinate"
+      },
+      {
+        "position": {
+          "left": 55,
+          "top": 45,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_5",
+        "name": "BasemapGallery",
+        "version": "2.2",
+        "uri": "widgets/BasemapGallery/Widget",
+        "config": {
+          "basemapGallery": {
+            "basemaps": [
+              {
+                "layers": [
+                  {
+                    "id": "MostRecentImagery_WGS_2669",
+                    "opacity": 1,
+                    "visibility": true,
+                    "url": "http://garden.gis.vt.edu/arcgis/rest/services/MostRecentImagery/MostRecentImagery_WGS/MapServer"
+                  }
+                ],
+                "title": "Aerial Basemap - VBMP",
+                "thumbnailUrl": "//hrsd.maps.arcgis.com/sharing/rest/content/items/183e02251b3c4fbfbe465b9dec25d7d6/info/thumbnail/ago_downloaded.png",
+                "spatialReference": {
+                  "wkid": 102100,
+                  "latestWkid": 3857
+                }
+              },
+              {
+                "layers": [
+                  {
+                    "id": "World_Imagery_9651",
+                    "opacity": 1,
+                    "visibility": true,
+                    "url": "http://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer"
+                  }
+                ],
+                "title": "AGOL Imagery Basemap",
+                "thumbnailUrl": "//hrsd.maps.arcgis.com/sharing/rest/content/items/c41ee8d6efab404bbe5d3264e00d5310/info/thumbnail/ago_downloaded.png",
+                "spatialReference": {
+                  "wkid": 102100,
+                  "latestWkid": 3857
+                }
+              },
+              {
+                "layers": [
+                  {
+                    "id": "World_Imagery_4077",
+                    "opacity": 1,
+                    "visibility": true,
+                    "url": "http://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer"
+                  },
+                  {
+                    "id": "World_Boundaries_and_Places_1285",
+                    "isReference": true,
+                    "opacity": 1,
+                    "visibility": true,
+                    "url": "http://services.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer"
+                  }
+                ],
+                "title": "AGOL Imagery with Labels Basemap",
+                "thumbnailUrl": "//hrsd.maps.arcgis.com/sharing/rest/content/items/1acb0fdb8c08470ab1fead07605b3918/info/thumbnail/ago_downloaded.png",
+                "spatialReference": {
+                  "wkid": 102100,
+                  "latestWkid": 3857
+                }
+              },
+              {
+                "layers": [
+                  {
+                    "id": "World_Light_Gray_Base_5158",
+                    "opacity": 1,
+                    "visibility": true,
+                    "url": "http://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer"
+                  },
+                  {
+                    "id": "World_Light_Gray_Reference_1654",
+                    "isReference": true,
+                    "opacity": 1,
+                    "visibility": true,
+                    "url": "http://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer"
+                  }
+                ],
+                "title": "AGOL Light Gray Canvas Basemap",
+                "thumbnailUrl": "//hrsd.maps.arcgis.com/sharing/rest/content/items/153034b7a6474c39aad8a39f70770cdd/info/thumbnail/ago_downloaded.png",
+                "spatialReference": {
+                  "wkid": 102100,
+                  "latestWkid": 3857
+                }
+              },
+              {
+                "layers": [
+                  {
+                    "id": "NatGeo_World_Map_9833",
+                    "opacity": 1,
+                    "visibility": true,
+                    "url": "http://services.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer"
+                  }
+                ],
+                "title": "AGOL National Geographic Basemap",
+                "thumbnailUrl": "//hrsd.maps.arcgis.com/sharing/rest/content/items/3e8e7abd0736425eb95b91666e2c71eb/info/thumbnail/ago_downloaded.png",
+                "spatialReference": {
+                  "wkid": 102100,
+                  "latestWkid": 3857
+                }
+              },
+              {
+                "layers": [
+                  {
+                    "id": "World_Street_Map_3258",
+                    "opacity": 1,
+                    "visibility": true,
+                    "url": "http://services.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer"
+                  }
+                ],
+                "title": "AGOL Streets Basemap",
+                "thumbnailUrl": "//hrsd.maps.arcgis.com/sharing/rest/content/items/ffdef9e4038a43d0a9ec3378535d97e9/info/thumbnail/ago_downloaded.png",
+                "spatialReference": {
+                  "wkid": 102100,
+                  "latestWkid": 3857
+                }
+              },
+              {
+                "layers": [
+                  {
+                    "id": "World_Terrain_Base_6691",
+                    "opacity": 1,
+                    "visibility": true,
+                    "url": "http://services.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer"
+                  },
+                  {
+                    "id": "World_Reference_Overlay_2845",
+                    "isReference": true,
+                    "opacity": 1,
+                    "visibility": true,
+                    "url": "http://services.arcgisonline.com/ArcGIS/rest/services/Reference/World_Reference_Overlay/MapServer"
+                  }
+                ],
+                "title": "AGOL Terrain Basemap",
+                "thumbnailUrl": "//hrsd.maps.arcgis.com/sharing/rest/content/items/ad56a6f75a664190a650e4a4ec4e4fc9/info/thumbnail/ago_downloaded.png",
+                "spatialReference": {
+                  "wkid": 102100,
+                  "latestWkid": 3857
+                }
+              },
+              {
+                "layers": [
+                  {
+                    "id": "World_Topo_Map_9981",
+                    "opacity": 1,
+                    "visibility": true,
+                    "url": "http://services.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer"
+                  }
+                ],
+                "title": "AGOL Topographic Basemap",
+                "thumbnailUrl": "//hrsd.maps.arcgis.com/sharing/rest/content/items/87c12589bc954dd9a2b81edcebd20d8b/info/thumbnail/ago_downloaded.png",
+                "spatialReference": {
+                  "wkid": 102100,
+                  "latestWkid": 3857
+                }
+              },
+              {
+                "layers": [
+                  {
+                    "id": "hrsd_basemap__v2.0_2259",
+                    "layerType": "ArcGISMapServiceLayer",
+                    "opacity": 1,
+                    "visibility": true,
+                    "url": "http://hrsdgis.hrsdnet.com/ArcGIS/rest/services/HRSD/hrsd_basemap__v2.0/MapServer"
+                  }
+                ],
+                "title": "Basemap_Local_Data",
+                "thumbnailUrl": "//hrsd.maps.arcgis.com/sharing/rest/content/items/2a6919b57a5d4945a930e7fbe518e431/info/thumbnail/ago_downloaded.png",
+                "spatialReference": {
+                  "wkid": 102100
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "position": {
+          "left": 105,
+          "top": 45,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_6",
+        "version": "2.2",
+        "uri": "widgets/Filter/Widget",
+        "name": "Filter",
+        "config": {
+          "filters": [
+            {
+              "layerId": "mwf_ai_route_stops_4132",
+              "url": "http://gis1:6080/arcgis/rest/services/mwf/mwf_ai_route_stops/MapServer/1",
+              "name": "Stops Log",
+              "filter": {
+                "logicalOperator": "AND",
+                "parts": [
+                  {
+                    "logicalOperator": "AND",
+                    "parts": [
+                      {
+                        "fieldObj": {
+                          "name": "ROUTE_NAME",
+                          "label": "ROUTE_NAME",
+                          "shortType": "string",
+                          "type": "esriFieldTypeString"
+                        },
+                        "operator": "stringOperatorIs",
+                        "valueObj": {
+                          "isValid": true,
+                          "type": "value",
+                          "value": ""
+                        },
+                        "interactiveObj": {
+                          "prompt": "AI:",
+                          "hint": "",
+                          "cascade": false
+                        },
+                        "caseSensitive": false
+                      },
+                      {
+                        "fieldObj": {
+                          "name": "FA_WORK_DATE",
+                          "label": "FA_WORK_DATE",
+                          "shortType": "string",
+                          "type": "esriFieldTypeString"
+                        },
+                        "operator": "stringOperatorIs",
+                        "valueObj": {
+                          "isValid": true,
+                          "type": "value",
+                          "value": ""
+                        },
+                        "interactiveObj": {
+                          "prompt": "Date",
+                          "hint": "YYYYMMDD",
+                          "cascade": false
+                        },
+                        "caseSensitive": false
+                      }
+                    ]
+                  }
+                ],
+                "expr": ""
+              },
+              "icon": "",
+              "enableMapFilter": false
+            },
+            {
+              "layerId": "mwf_ai_route_stops_1760",
+              "url": "http://gis1:6080/arcgis/rest/services/mwf/mwf_ai_route_stops/MapServer/0",
+              "name": "GPS Log",
+              "filter": {
+                "logicalOperator": "AND",
+                "parts": [
+                  {
+                    "logicalOperator": "AND",
+                    "parts": [
+                      {
+                        "fieldObj": {
+                          "name": "AI",
+                          "label": "AI",
+                          "shortType": "string",
+                          "type": "esriFieldTypeString"
+                        },
+                        "operator": "stringOperatorIs",
+                        "valueObj": {
+                          "isValid": true,
+                          "type": "value",
+                          "value": ""
+                        },
+                        "interactiveObj": {
+                          "prompt": "AI:",
+                          "hint": "",
+                          "cascade": false
+                        },
+                        "caseSensitive": false
+                      },
+                      {
+                        "fieldObj": {
+                          "name": "TIMESTAMP",
+                          "label": "TIMESTAMP",
+                          "shortType": "date",
+                          "type": "esriFieldTypeDate"
+                        },
+                        "operator": "dateOperatorIsOn",
+                        "valueObj": {
+                          "isValid": true,
+                          "type": "value",
+                          "value": "Mon Oct 17 2016"
+                        },
+                        "interactiveObj": {
+                          "prompt": "Date:",
+                          "hint": "mm/dd/yyyy",
+                          "cascade": false
+                        },
+                        "caseSensitive": false
+                      }
+                    ]
+                  }
+                ],
+                "expr": ""
+              },
+              "icon": "",
+              "enableMapFilter": true
+            }
+          ]
+        }
+      },
+      {
+        "position": {
+          "left": 155,
+          "top": 45,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_7",
+        "version": "2.2",
+        "uri": ""
+      },
+      {
+        "position": {
+          "left": 205,
+          "top": 45,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 2,
+        "id": "_8",
+        "version": "2.2",
+        "uri": ""
+      },
+      {
+        "position": {
+          "left": 255,
+          "top": 45,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 3,
+        "id": "_9"
+      },
+      {
+        "uri": "widgets/OverviewMap/Widget",
+        "position": {
+          "right": 0,
+          "bottom": 0,
+          "zIndex": 1,
+          "relativeTo": "map"
+        },
+        "version": "2.2",
+        "id": "widgets_OverviewMap_Widget_10",
+        "name": "OverviewMap"
+      },
+      {
+        "uri": "widgets/HomeButton/Widget",
+        "position": {
+          "left": 7,
+          "top": 75,
+          "relativeTo": "map"
+        },
+        "version": "2.2",
+        "id": "widgets_HomeButton_Widget_11",
+        "name": "HomeButton"
+      },
+      {
+        "uri": "widgets/MyLocation/Widget",
+        "position": {
+          "left": 7,
+          "top": 110,
+          "relativeTo": "map"
+        },
+        "version": "2.2",
+        "id": "widgets_MyLocation_Widget_12",
+        "name": "MyLocation"
+      },
+      {
+        "uri": "widgets/AttributeTable/Widget",
+        "position": {
+          "relativeTo": "browser"
+        },
+        "version": "2.2",
+        "id": "widgets_AttributeTable_Widget_13",
+        "name": "AttributeTable",
+        "featureActions": [
+          {
+            "name": "ShowRelatedRecords",
+            "uri": "actions/ShowRelatedRecordsFeatureAction"
+          },
+          {
+            "name": "ViewInTable",
+            "uri": "actions/ViewInAttributeTableFeatureAction"
+          }
+        ]
+      },
+      {
+        "uri": "widgets/Splash/Widget",
+        "visible": false,
+        "position": {
+          "relativeTo": "browser"
+        },
+        "version": "2.2",
+        "id": "widgets_Splash_Widget_14",
+        "name": "Splash"
+      },
+      {
+        "uri": "widgets/ZoomSlider/Widget",
+        "position": {
+          "top": 5,
+          "left": 7,
+          "relativeTo": "map"
+        },
+        "version": "2.2",
+        "id": "widgets_ZoomSlider_Widget_15",
+        "name": "ZoomSlider"
+      }
+    ],
+    "panel": {
+      "uri": "jimu/OnScreenWidgetPanel",
+      "position": {
+        "relativeTo": "map"
+      }
+    }
+  },
+  "map": {
+    "3D": false,
+    "2D": true,
+    "position": {
+      "left": 0,
+      "top": 40,
+      "right": 0,
+      "bottom": 0
+    },
+    "itemId": "a6efc1856b574d97b57cf94e17e25db0",
+    "mapOptions": {
+      "extent": {
+        "xmin": -8563371.356401455,
+        "ymin": 4398317.351695151,
+        "xmax": -8442295.10359769,
+        "ymax": 4485302.6898837155,
+        "spatialReference": {
+          "wkid": 102100
+        }
+      }
+    },
+    "id": "map",
+    "portalUrl": "http://hrsd.maps.arcgis.com"
+  },
+  "widgetPool": {
+    "panel": {
+      "uri": "themes/FoldableTheme/panels/FoldablePanel/Panel",
+      "position": {
+        "top": 5,
+        "right": 5,
+        "bottom": 5,
+        "zIndex": 5,
+        "relativeTo": "map"
+      }
+    },
+    "widgets": [
+      {
+        "uri": "widgets/Legend/Widget",
+        "version": "2.2",
+        "id": "widgets_Legend_Widget_16",
+        "name": "Legend",
+        "index": 0
+      },
+      {
+        "uri": "widgets/LayerList/Widget",
+        "version": "2.2",
+        "id": "widgets_LayerList_Widget_17",
+        "name": "LayerList",
+        "index": 1
+      }
+    ],
+    "groups": []
+  },
+  "mobileLayout": {
+    "widgetOnScreen": {
+      "widgets": [
+        {
+          "uri": "themes/FoldableTheme/widgets/HeaderController/Widget",
+          "position": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "height": 40,
+            "relativeTo": "browser"
+          },
+          "version": "2.2"
+        },
+        {
+          "uri": "widgets/Scalebar/Widget",
+          "position": {
+            "left": 7,
+            "bottom": 40,
+            "relativeTo": "map"
+          },
+          "version": "2.2"
+        },
+        {
+          "uri": "widgets/Search/Widget",
+          "position": {
+            "left": 55,
+            "top": 5
+          },
+          "version": "2.2"
+        },
+        {
+          "uri": "widgets/Coordinate/Widget",
+          "position": {
+            "left": 7,
+            "bottom": 17,
+            "relativeTo": "map"
+          },
+          "version": "2.2"
+        },
+        {
+          "position": {
+            "left": 55,
+            "top": 45
+          }
+        },
+        {
+          "position": {
+            "left": 105,
+            "top": 45
+          }
+        },
+        {
+          "position": {
+            "left": 155,
+            "top": 45
+          }
+        },
+        {
+          "position": {
+            "left": 205,
+            "top": 45
+          }
+        },
+        {
+          "position": {
+            "left": 255,
+            "top": 45
+          }
+        },
+        {
+          "uri": "widgets/OverviewMap/Widget",
+          "position": {
+            "right": 0,
+            "bottom": 0,
+            "zIndex": 1
+          },
+          "version": "2.2"
+        },
+        {
+          "uri": "widgets/HomeButton/Widget",
+          "inPanel": false,
+          "position": {
+            "left": 7,
+            "top": 75
+          },
+          "version": "2.2"
+        },
+        {
+          "uri": "widgets/MyLocation/Widget",
+          "inPanel": false,
+          "position": {
+            "left": 7,
+            "top": 110
+          },
+          "version": "2.2"
+        },
+        {
+          "uri": "widgets/AttributeTable/Widget",
+          "version": "2.2",
+          "position": {
+            "relativeTo": "browser"
+          }
+        },
+        {
+          "uri": "widgets/Splash/Widget",
+          "visible": false,
+          "position": {
+            "relativeTo": "browser"
+          },
+          "version": "2.2"
+        },
+        {
+          "uri": "widgets/ZoomSlider/Widget",
+          "visible": true,
+          "position": {
+            "top": 5,
+            "left": 7
+          },
+          "version": "2.2"
+        }
+      ]
+    },
+    "map": {
+      "position": {
+        "left": 0,
+        "top": 40,
+        "right": 0,
+        "bottom": 0
+      }
+    },
+    "widgetPool": {
+      "panel": {
+        "uri": "themes/FoldableTheme/panels/FoldablePanel/Panel",
+        "position": {
+          "top": 5,
+          "right": 5,
+          "bottom": 5,
+          "zIndex": 5
+        }
+      }
+    }
+  },
+  "loadingPage": {
+    "backgroundColor": "#508dca",
+    "backgroundImage": {
+      "visible": false
+    },
+    "loadingGif": {
+      "visible": true,
+      "uri": "configs/loading/images/predefined_loading_1.gif",
+      "width": 58,
+      "height": 29
+    }
+  },
+  "wabVersion": "2.2",
+  "isWebTier": false
+}
